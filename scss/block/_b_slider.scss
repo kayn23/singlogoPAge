@@ -1,6 +1,6 @@
 .b_slider {
     background-color: $BGColor;
-    @include genPading;
+    @include genPadding;
 
     &__control {
         width: 5%;
