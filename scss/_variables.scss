@@ -25,3 +25,11 @@ a {
     text-decoration: none;
     color: $liteColor;
 }
+
+
+/*----------------
+ * миксины
+----------------*/
+@mixin genPading {
+    padding: 50px 40px;
+}

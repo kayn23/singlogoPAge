@@ -2,14 +2,29 @@ header {
     background-color: $BGDark;
 }
 
+.header_position {
+    padding: 35px 40px 20px;
+    overflow: hidden;
+    @include media-breakpoint-down(xs) {
+        padding: 35px 40px 0;
+    }
+}
+
 .b_logo {
     color: $liteColor;
     font-family: $Lato;
     font-size: 1.563rem;
     font-weight: 700;
     text-transform: uppercase;
+    line-height: 1.395rem;
+
     &__active {
         color: $BGColor;
+    }
+
+    &_position {
+        //margin: 35px 40px;
+        float: left;
     }
 }
 
@@ -19,12 +34,46 @@ header {
         font-size: 0.75rem;
         font-weight: 700;
         text-transform: uppercase;
+
+        &_position {
+            display: inline-block;
+            @include media-breakpoint-down(xs) {
+                display: block;
+                margin: 5px 0;
+            }
+        }
     }
 
     &__link {
+        padding: 0 20px;
+        line-height: 0.395rem;
+
         &:hover {
             color: $BGColor;
             text-decoration: none;
+        }
+
+        &_position {
+            @include media-breakpoint-down(lg) {
+                padding: 0 10px;
+            }
+
+            @include media-breakpoint-down(md) {
+                padding: 0 5px;
+            }
+
+
+        }
+
+    }
+
+    &_position {
+        float: right;
+
+        @include media-breakpoint-down(xs) {
+            clear: both;
+            padding: 20px 0;
+            float: none;
         }
     }
 
