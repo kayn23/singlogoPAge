@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400,700');
+
+$BGDark: #2d303a;
+$BGColor: #f06c64;
+
+$lato_black: Lato;
+$Lato: $lato_black;
+
+$grayCaption: #666d89;
+$grayText: #767e9e;
+$liteText: #f0d8d9;
+$liteColor: #fff;
+
+/*----------------
+ * сброс стилей
+----------------*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: $liteColor;
+}

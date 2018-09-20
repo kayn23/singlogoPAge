@@ -1,0 +1,32 @@
+header {
+    background-color: $BGDark;
+}
+
+.logo {
+    color: $liteColor;
+    font-family: $Lato;
+    font-size: 1.563rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    &__active {
+        color: $BGColor;
+    }
+}
+
+.menu {
+    &__item {
+        list-style-type: none;
+        font-size: 0.75rem;
+        font-weight: 700;
+        text-transform: uppercase;
+    }
+
+    &__link {
+        &:hover {
+            color: $BGColor;
+            text-decoration: none;
+        }
+    }
+
+    //hover link color: $BGColor;
+}
