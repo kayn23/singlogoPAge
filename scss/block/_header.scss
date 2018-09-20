@@ -2,7 +2,7 @@ header {
     background-color: $BGDark;
 }
 
-.logo {
+.b_logo {
     color: $liteColor;
     font-family: $Lato;
     font-size: 1.563rem;
@@ -13,7 +13,7 @@ header {
     }
 }
 
-.menu {
+.b_menu {
     &__item {
         list-style-type: none;
         font-size: 0.75rem;
