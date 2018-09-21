@@ -1,10 +1,15 @@
 @import url('https://fonts.googleapis.com/css?family=Lato:300,400,700');
+@font-face {
+    font-family: 'LatoBlack';
+    src: url(../fonts/Lato-Black.ttf);
+}
+
 
 $BGDark: #2d303a;
 $BGColor: #f06c64;
 
-$lato_black: Lato;
-$Lato: $lato_black;
+$lato_black: "LatoBlack";
+$Lato: "Lato";
 
 $grayCaption: #666d89;
 $grayText: #767e9e;
