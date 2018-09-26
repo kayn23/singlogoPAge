@@ -1,6 +1,9 @@
 .b_slider {
     background-color: $BGColor;
     @include genPadding;
+    @include media-breakpoint-down(sm){
+        display: none;
+    }
 
     &__control {
         width: 5%;

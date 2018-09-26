@@ -6,8 +6,41 @@
 
 
 .b_gallery {
-    &_item {
+    &__item {
         width: 100%;
         margin-bottom: 20px;
+        &:hover {
+            cursor: pointer;
+            filter: opacity(0.6);
+        }
+    }
+}
+
+.b_filter {
+    &__item {
+        border: 0.063rem solid $grayCaption;
+        border-radius: 10px;
+        color: $grayText;
+        font-family: $Lato;
+        font-size: 0.75rem;
+        font-weight: 400;
+        line-height: 1.348rem;
+        list-style-type: none;
+
+        &:hover {
+            color: $liteText;
+            border-color: $liteText;
+            cursor: pointer;
+        }
+
+        &_position {
+            display: inline-block;
+            padding: 2px 7px;
+            margin: 0 4px;
+            @include media-breakpoint-down(sm) {
+                display: block;
+                margin: 4px 0;
+            }
+        }
     }
 }

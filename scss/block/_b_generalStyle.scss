@@ -17,10 +17,14 @@
     font-size: 1.125rem;
     font-weight: 300;
     line-height: 1.875rem;
-    margin-bottom: 45px;
+
+    &_pos {
+        margin-bottom: 45px;
+    }
 
     &_positionGet {
         color: $liteText;
+        margin-bottom: 45px;
     }
 }
 
