@@ -1,0 +1,62 @@
+.b_aboutUs {
+    @include genPadding;
+
+     &__profileBlock {
+        display: flex;
+        justify-content: space-around;
+    }
+}
+
+.b_profile {
+    &__picture {
+        &_position {
+            margin-bottom: 15px;
+        }
+    }
+
+    &__caption {
+        color: $grayCaption;
+        font-family: $lato_black;
+        font-size: 1.125rem;
+        font-weight: 400;
+        line-height: 1.116rem;
+
+        &_position {
+            margin-bottom: 15px;
+        }
+    }
+
+    &__text {
+        color: $grayText;
+        font-family: $Lato;
+        font-size: 0.75rem;
+        font-weight: 400;
+        line-height: 1.348rem;
+
+        &_position {
+            margin-bottom: 20px;
+        }
+    }
+
+    &__linkBlock {
+
+    }
+
+    &__link {
+        border: 0.063rem solid $grayCaption;
+        border-radius: 50%;
+        text-align: center;
+        line-height: 1.85rem;
+        color: $grayCaption;
+        &_positionAboutUs {
+            display: inline-block;
+            width: 2rem;
+            height: 2rem;
+            margin: 0 2px;
+        }
+    }
+
+    &_position {
+        max-width: 300px;
+    }
+}
