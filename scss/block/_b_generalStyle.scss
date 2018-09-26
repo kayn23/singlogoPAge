@@ -4,7 +4,11 @@
     font-size: 1.875rem;
     font-weight: 400;
     line-height: 1.116rem;
+    margin-bottom: 30px;
 
+    &_positionGet {
+        color: $liteText;
+    }
 }
 
 .b_generalText {
@@ -13,4 +17,29 @@
     font-size: 1.125rem;
     font-weight: 300;
     line-height: 1.875rem;
+    margin-bottom: 45px;
+
+    &_positionGet {
+        color: $liteText;
+    }
+}
+
+.b_link {
+    &:hover{
+        color:inherit;
+    }
+
+    &_Get {
+        color: $liteText;
+    }
+
+    &_aboutUs:hover {
+        color: darken($grayText,40%);
+        border-color: darken($grayText,40%);
+    }
+
+    &_footer:hover {
+        color: lighten($grayText,20%);
+        border-color: lighten($grayText,20%);
+    }
 }
