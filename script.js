@@ -18,7 +18,7 @@ filter = {
     }
 }
 
-function setFilter (arg) {
-    $('.b_gallery__item').hide();
-    $(arg).show();
+function setFilter (arg) { //фильтр для картинок
+    $('.all').parent('div').hide();
+    $('.'+arg).parent('div').show();
 }
