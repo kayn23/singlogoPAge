@@ -12,6 +12,10 @@
 .visions {
     width: 80%;
 
+    @media (orientation: landscape) {
+        width: 50%;
+    }
+
     @include media-breakpoint-up(md) {
         width: 50%;
     }
