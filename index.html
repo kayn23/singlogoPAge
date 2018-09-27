@@ -50,7 +50,10 @@
             <p class="b_generalText b_generalText_pos">
                 Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum. Duis mollis, non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.
             </p>
-            <div class="row">
+            <div class="buttonShow buttonShow_positionAboutUs col-12">
+                Показать <i class="fas fa-arrow-circle-down"></i>
+            </div>
+            <div class="row blockShow">
                 <div class="col-lg-4 col-sm-6">
                     <div class="row">
                         <div class="col-3"><img src="img/Services_icon/service_1.png" alt="service_1"></div>
@@ -123,26 +126,31 @@
             <p class="b_generalText">
                 Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit.
             </p>
-            <ul class="b_filter">
-                <li class="b_filter__item b_filter__item_position" onclick="setFilter('all')">All</li>
-                <li class="b_filter__item b_filter__item_position" onclick="setFilter('web')">Web Design</li>
-                <li class="b_filter__item b_filter__item_position" onclick="setFilter('graph')">Graphic Design</li>
-                <li class="b_filter__item b_filter__item_position" onclick="setFilter('art')">Artwork</li>
-            </ul>
-            <div class="b_gallery row">
-               <div class="col-4 col-md-3"><img src="img/Portfolio/p1.jpg" alt="image1" class="b_gallery__item all web"></div>
-               <div class="col-4 col-md-3"><img src="img/Portfolio/p2.jpg" alt="image2" class="b_gallery__item all art"></div>
-               <div class="col-4 col-md-3"><img src="img/Portfolio/p3.jpg" alt="image3" class="b_gallery__item all art"></div>
-               <div class="col-4 col-md-3"><img src="img/Portfolio/p4.jpg" alt="image4" class="b_gallery__item all web"></div>
-               <div class="col-4 col-md-3"><img src="img/Portfolio/p5.jpg" alt="image5" class="b_gallery__item all graph"></div>
-               <div class="col-4 col-md-3"><img src="img/Portfolio/p6.jpg" alt="image6" class="b_gallery__item all graph"></div>
-               <div class="col-4 col-md-3"><img src="img/Portfolio/p7.jpg" alt="image7" class="b_gallery__item all art"></div>
-               <div class="col-4 col-md-3"><img src="img/Portfolio/p8.jpg" alt="image8" class="b_gallery__item all web"></div>
-               <div class="col-4 col-md-3"><img src="img/Portfolio/p9.jpg" alt="image9" class="b_gallery__item all graph"></div>
-               <div class="col-4 col-md-3"><img src="img/Portfolio/p10.jpg" alt="image10" class="b_gallery__item all art"></div>
-               <div class="col-4 col-md-3"><img src="img/Portfolio/p11.jpg" alt="image11" class="b_gallery__item all web"></div>
-               <div class="col-4 col-md-3"><img src="img/Portfolio/p12.jpg" alt="image12" class="b_gallery__item all graph"></div>
+            <div class="buttonShow buttonShow_positionPortfolio col-12">
+                Показать <i class="fas fa-arrow-circle-down"></i>
+            </div>
+            <div class="blockShow">
+                <ul class="b_filter">
+                    <li class="b_filter__item b_filter__item_position" onclick="setFilter('all')">All</li>
+                    <li class="b_filter__item b_filter__item_position" onclick="setFilter('web')">Web Design</li>
+                    <li class="b_filter__item b_filter__item_position" onclick="setFilter('graph')">Graphic Design</li>
+                    <li class="b_filter__item b_filter__item_position" onclick="setFilter('art')">Artwork</li>
+                </ul>
+                <div class="b_gallery row">
+                    <div class="col-4 col-md-3"><img src="img/Portfolio/p1.jpg" alt="image1" class="b_gallery__item all web"></div>
+                    <div class="col-4 col-md-3"><img src="img/Portfolio/p2.jpg" alt="image2" class="b_gallery__item all art"></div>
+                    <div class="col-4 col-md-3"><img src="img/Portfolio/p3.jpg" alt="image3" class="b_gallery__item all art"></div>
+                    <div class="col-4 col-md-3"><img src="img/Portfolio/p4.jpg" alt="image4" class="b_gallery__item all web"></div>
+                    <div class="col-4 col-md-3"><img src="img/Portfolio/p5.jpg" alt="image5" class="b_gallery__item all graph"></div>
+                    <div class="col-4 col-md-3"><img src="img/Portfolio/p6.jpg" alt="image6" class="b_gallery__item all graph"></div>
+                    <div class="col-4 col-md-3"><img src="img/Portfolio/p7.jpg" alt="image7" class="b_gallery__item all art"></div>
+                    <div class="col-4 col-md-3"><img src="img/Portfolio/p8.jpg" alt="image8" class="b_gallery__item all web"></div>
+                    <div class="col-4 col-md-3"><img src="img/Portfolio/p9.jpg" alt="image9" class="b_gallery__item all graph"></div>
+                    <div class="col-4 col-md-3"><img src="img/Portfolio/p10.jpg" alt="image10" class="b_gallery__item all art"></div>
+                    <div class="col-4 col-md-3"><img src="img/Portfolio/p11.jpg" alt="image11" class="b_gallery__item all web"></div>
+                    <div class="col-4 col-md-3"><img src="img/Portfolio/p12.jpg" alt="image12" class="b_gallery__item all graph"></div>
 
+                </div>
             </div>
         </section>
         <section class="b_aboutUs">
@@ -150,8 +158,11 @@
             <p class="b_generalText b_generalText_pos">
                 Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit.
             </p>
+            <div class="buttonShow col-12 buttonShow_positionAboutUs">
+                Показать <i class="fas fa-arrow-circle-down"></i>
+            </div>
 
-            <div class="b_aboutUs__profileBlock">
+            <div class="b_aboutUs__profileBlock blockShow">
                 <!-- карточка -->
                 <div class="b_profile b_profile_position">
                     <img class="b_profile__picture_position" src="http://placehold.it/300/000" alt="...">
@@ -201,7 +212,10 @@
             <p class="b_generalText b_generalText_positionGet">
                 Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum. Duis mollis, non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.
             </p>
-            <div class="b_Get__form row">
+            <div class="buttonShow buttonShow_positionAboutUs col-12">
+                Показать <i class="fas fa-arrow-circle-down"></i>
+            </div>
+            <div class="b_Get__form row blockShow">
                 <form class="col-md-8" action="#">
                     <input class="b_Get__input col-12" type="text" placeholder="Name (Required)">
                     <input class="b_Get__input col-12" type="email" placeholder="Email (Required)">

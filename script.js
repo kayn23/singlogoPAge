@@ -27,3 +27,22 @@ $('.all').click(function(e) {
     a = e.target.getAttribute('src').split('/');
     createModal(a[2]);
 })
+
+
+function windowSize() {
+    if ($(window).width() <= '750' ) {
+        $('.buttonShow').show();
+        $('.blockShow').hide();
+    } else {
+        $('.blockShow').show();
+        $('.buttonShow').hide();
+    }
+}
+
+$('.buttonShow').click(function(e) {
+    var a = $(e.target).next();
+    console.log(a);
+    a.toggle('fast');
+})
+
+$(window).on('load resize',windowSize);

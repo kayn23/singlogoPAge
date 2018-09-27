@@ -47,3 +47,22 @@
         border-color: lighten($grayText,20%);
     }
 }
+
+.buttonShow {
+    @extend .b_generalText;
+    background: $BGShow;
+    padding: 5px 15px;
+    &:hover {
+        cursor: pointer;
+        text-decoration: underline;
+        background: darken($BGShow,10%);
+    }
+    border-radius: 10px;
+
+    &_positionPortfolio {
+        margin: -10px 0 15px;
+    }
+    &_positionAboutUs {
+        margin: -35px 0 15px;
+    }
+}
