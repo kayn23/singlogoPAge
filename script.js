@@ -42,7 +42,7 @@ function windowSize() {
 $('.buttonShow').click(function(e) {
     var a = $(e.target).next();
     console.log(a);
-    a.toggle('fast');
+    a.toggle();
 })
 
 $(window).on('load resize',windowSize);
