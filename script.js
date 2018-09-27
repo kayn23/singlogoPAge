@@ -46,3 +46,11 @@ $('.buttonShow').click(function(e) {
 })
 
 $(window).on('load',windowSize);
+
+$(window).scroll(function() {
+    if ($(window).scrollTop() > $(window).height()/2) {
+        $('.UP').show();
+    } else {
+        $('.UP').hide();
+    }
+})
