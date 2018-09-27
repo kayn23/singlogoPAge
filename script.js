@@ -45,4 +45,4 @@ $('.buttonShow').click(function(e) {
     a.toggle();
 })
 
-$(window).on('load resize',windowSize);
+$(window).on('load',windowSize);
