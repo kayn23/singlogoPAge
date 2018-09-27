@@ -11,6 +11,7 @@ function createModal (arg) {  //генерирует модальное окно
     var div = document.createElement('div');
     div.className = 'b_modal__elem visions';
     var pictures = document.createElement('img');
+    pictures.className = 'b_modal__pictures'
     pictures.setAttribute('src','img/PortfolioBig/' + arg);
     div.appendChild(pictures);
     modOkno.appendChild(div);
