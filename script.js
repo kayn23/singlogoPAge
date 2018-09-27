@@ -45,12 +45,18 @@ $('.buttonShow').click(function(e) {
     a.toggle();
 })
 
-$(window).on('load',windowSize);
+$(window).on('load',function(){
+    windowSize();
+});
 
 $(window).scroll(function() {
+    showUp();
+})
+
+function showUp () {
     if ($(window).scrollTop() > $(window).height()/2) {
         $('.UP').show();
     } else {
         $('.UP').hide();
     }
-})
+}
